@@ -17,6 +17,8 @@
 		1E88251229A6F39B00E4374F /* wantedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88251129A6F39B00E4374F /* wantedTests.swift */; };
 		1E88251C29A6F39B00E4374F /* wantedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88251B29A6F39B00E4374F /* wantedUITests.swift */; };
 		1E88251E29A6F39B00E4374F /* wantedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88251D29A6F39B00E4374F /* wantedUITestsLaunchTests.swift */; };
+		1E88252B29A6F99F00E4374F /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88252A29A6F99F00E4374F /* Component.swift */; };
+		1E88252D29A749B400E4374F /* LoadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88252C29A749B400E4374F /* LoadButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1E88251729A6F39B00E4374F /* wantedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wantedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E88251B29A6F39B00E4374F /* wantedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wantedUITests.swift; sourceTree = "<group>"; };
 		1E88251D29A6F39B00E4374F /* wantedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wantedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E88252A29A6F99F00E4374F /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		1E88252C29A749B400E4374F /* LoadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				1E8824F929A6F39800E4374F /* SceneDelegate.swift */,
 				1E8824FB29A6F39800E4374F /* ViewController.swift */,
 				1E8824FD29A6F39800E4374F /* Main.storyboard */,
+				1E88252A29A6F99F00E4374F /* Component.swift */,
+				1E88252C29A749B400E4374F /* LoadButton.swift */,
 				1E88250329A6F39B00E4374F /* Assets.xcassets */,
 				1E88250529A6F39B00E4374F /* LaunchScreen.storyboard */,
 				1E88250829A6F39B00E4374F /* Info.plist */,
@@ -261,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E88252B29A6F99F00E4374F /* Component.swift in Sources */,
+				1E88252D29A749B400E4374F /* LoadButton.swift in Sources */,
 				1E8824FC29A6F39800E4374F /* ViewController.swift in Sources */,
 				1E8824F829A6F39800E4374F /* AppDelegate.swift in Sources */,
 				1E88250229A6F39800E4374F /* wanted.xcdatamodeld in Sources */,
